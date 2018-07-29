@@ -1,0 +1,24 @@
+{
+  "name": "Stat",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "machine": {
+      "type": "string"
+    },
+    "attribute": {
+      "type": "string"
+    },
+    "reading": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {},
+  "http": {"path": "/stat"}
+}

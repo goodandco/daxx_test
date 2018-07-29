@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "stat": {
+    "name": "stat",
+    "connector": "postgresql",
+    "host": "localhost",
+    "port": 5432,
+    "database": "daxxdb",
+    "username": "postgres",
+    "password": "root"
+  }
+}
